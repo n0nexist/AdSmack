@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "AdSmack",
+    "version": "1.2.3",
+    "description": "made by n0nexist.github.io",
+    "browser_action": {
+        "default_title": "AdSmack",
+        "default_popup": "menu.html"
+    },
+    "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    }
+}
+  
